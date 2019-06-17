@@ -38,7 +38,9 @@ public class VendingMachineItem
      */
     public void setPrice(double givenPrice)
     {
+        if(price>0||price<100000)
         price = givenPrice;
+        
     }
     
     /**
